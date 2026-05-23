@@ -1,41 +1,79 @@
 body{
-    background:black;
-    color:#00ff66;
-    font-family:monospace;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    height:100vh;
+
+  background:black;
+  color:#00ff66;
+
+  font-family:monospace;
+
+  display:flex;
+
+  justify-content:center;
+  align-items:center;
+
+  height:100vh;
+
 }
 
 .login-box{
-    border:1px solid #00ff66;
-    padding: 30px;
-    width: 300px;
-    text-align:center;
+
+  border:1px solid #00ff66;
+
+  padding:30px;
+
+  width:300px;
+
+  text-align:center;
+
+  box-shadow:0 0 20px #00ff66;
+
 }
 
 input{
-    width:90%;
-    padding: 10px;
-    margin-top: 10px;
-    bakcground:black;
-    color:#00ff66;
-    border:1px solid #00ff66;
-    cursor:pointer;
+
+  width:90%;
+
+  padding:10px;
+
+  margin-top:10px;
+
+  background:black;
+
+  color:#00ff66;
+
+  border:1px solid #00ff66;
+
 }
 
 button{
-    margin-top: 15px;
-    padding: 10px;
-    width: 100%;
-    background:black;
-    color:#00ff66;
-    border:1px solid #00ff66;
-    cursor:pointer;
+
+  width:100%;
+
+  padding:10px;
+
+  margin-top:15px;
+
+  background:black;
+
+  color:#00ff66;
+
+  border:1px solid #00ff66;
+
+  cursor:pointer;
+
 }
 
 button:hover{
-    background:#00ff66;
-    color:black;
+
+  background:#00ff66;
+
+  color:black;
+
+}
+
+#message{
+
+  margin-top:10px;
+
+  color:red;
+
 }
