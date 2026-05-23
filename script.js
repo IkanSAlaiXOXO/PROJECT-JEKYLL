@@ -1,15 +1,21 @@
 function login(){
-    const password =
-    document.getElementById("passsword").value;
 
-    if(password == "LUCIEN"){
+  const password =
+  document.getElementById("password").value;
 
-        window.location.href = "database.html";
+  if(password === "LUCIEN"){
 
-    }else{
+    window.location.href =
+    "database.html";
 
-        document.getElementById("message").innerHTML = "ACCESS DENIED";
-    }
-    
+  }
+
+  else{
+
+    document.getElementById("message")
+    .innerHTML =
+    "ACCESS DENIED";
+
+  }
+
 }
-    }
